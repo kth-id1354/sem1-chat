@@ -1,2 +1,2 @@
 # sem1-chat
-Example program for seminar one. 
+This is the seminar one version of the chat sample program.
