@@ -1,0 +1,96 @@
+body {
+    background-color: lightyellow;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 2% 1% 1% 1%;
+}
+
+header {
+    overflow: auto;
+}
+
+.header-text {
+    text-align: right;
+    margin-right: 1.5em;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.menu {
+    padding: 2em;
+}
+
+.menu li {
+    background-color: lightgray;
+    background-color: lightgray;
+    display: inline;
+    padding: 0.3em;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.text-author {
+    width: 10em;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.entry {
+    margin-bottom: 1em;
+}
+
+#entry {
+    width: 29em;
+    resize: both;
+}
+
+footer {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px),
+only screen and (max-height: 480px) {
+    header,
+    h1 {
+        display: none;
+    }
+    #entry {
+        width: 95%;
+    }
+    main {
+        position: relative;
+    }
+    nav {
+        position: absolute;
+        bottom: -20em;
+    }
+    footer {
+        position: absolute;
+        bottom: -25em;
+    }
+
+    .menu li {
+        display: block;
+        margin-top: 0.1em;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

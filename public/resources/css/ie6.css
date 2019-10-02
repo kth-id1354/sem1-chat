@@ -1,0 +1,18 @@
+body {
+	background: #D3D3D3;
+	font-size: 100%;
+	width : 100%;
+	/*http://www.cameronmoll.com/archives/000892.html
+	width : expression(document.body.clientWidth < 640? "640px" : document.body.clientWidth > 120? "120em" : "auto");
+	margin : 0 auto;
+	padding : 2em 0;
+	line-height : 1.4;
+	color : #333; */
+}
+
+.col {
+	display: inline;
+	float: left;
+	margin: 0.5% 0 0 0;
+	padding: 0 0 2% 0;
+}
